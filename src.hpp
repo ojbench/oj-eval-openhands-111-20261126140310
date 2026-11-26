@@ -1,7 +1,5 @@
 #pragma once //include guard
 
-namespace sjtu {
-
 char *strtok(char * __restrict str, const char * __restrict delim);
 
 char *strtok(char * __restrict str, const char * __restrict delim) {
@@ -52,5 +50,3 @@ char *strtok(char * __restrict str, const char * __restrict delim) {
     
     return token_start;
 }
-
-} // namespace sjtu
